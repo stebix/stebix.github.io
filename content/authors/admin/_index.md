@@ -150,6 +150,7 @@ both modalities is of special interest.
 In addition to optimization of imaging methods, I am interested in applying machine intelligence via deep learning
 onto (imaging) data to enable fully automated and scalable evaluation pipelines.
 
-In my free time, I enjoy playing volleyball, running and competing in virtual worlds.
+In my free time, when I’m not coding or tinkering with tech, I enjoy sports (volleyball and running), competing in virtual worlds
+and drinking a cup of coffee while contemplating life and things.
 
 👨‍💻🏐🏃‍♂️👾
