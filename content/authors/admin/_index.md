@@ -41,7 +41,7 @@ profiles:
     url: https://github.com/stebix/
 
 interests:
-  - Physics of Magnetic Resonance Imaging
+  - Magnetic Resonance Imaging
   - Computed Tomography Imaging 
   - Signal Processing
   - \{Machine, Deep\} Learning
