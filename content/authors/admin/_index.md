@@ -127,7 +127,7 @@ awards:
     url: 'https://www.physik.uni-wuerzburg.de/aktuelles/veranstaltungen-aus-der-physik/absolventen-absolventinnenfeier/preistraeger-preistraegerinnen-roentgen-studienpreis/'
     date: '2020-11-01'
     awarder: Julius-Maximilians-Universität Würzburg
-    icon: "custom/uniwue-seal"
+    icon: "custom/uniwue-seal.svg"
     summary: |
       Yearly study award of the Faculty of Physics and Astronomy for the top 10 % of graduates.
 
@@ -136,7 +136,7 @@ awards:
 ## About Me
 
 I am a PhD candidate at the Experimental Physics V of University of Würzburg. For my research, I focus on the
-**physics** and **signal processing** of computed tomography **(CT)** and magnetic resonance **(MR)** imaging.
+**physics** and **signal processing** of **magnetic resonance (MR)** and **computed tomography (CT)** imaging.
 
 The usage of machine learning and differentiable programming to systematically improve the imaging process of
 both modalities is of special interest.
