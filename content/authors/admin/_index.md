@@ -43,9 +43,9 @@ profiles:
 interests:
   - Magnetic Resonance Imaging
   - Computed Tomography Imaging 
-  - Signal Processing
   - \{Machine, Deep\} Learning
   - Differentiable Programming
+  - Signal Processing
 
 education:
 
@@ -59,7 +59,7 @@ work:
   - position: Research Fellow
     company_name: Fraunhofer-Institut IIS EZRT
     company_url: 'https://www.iis.fraunhofer.de/de/ff/zfp.html'
-    company_logo: 'custom/fhg'
+    company_logo: 'fhg'
     date_start: 2021
     
 #    date_end: ''
@@ -97,25 +97,26 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Volleyball
-        description: 'Indoor 🏛️ (*Landesliga*, state division) and beach 🏖️ (unranked) play.'
-        percent: 60
-        icon: 🏐
-        icon_pack: emoji
-      - name: Running
-        description: 'Long distances up to half marathon through nature.'
-        percent: 100
-        icon: 🏃‍♂️
-        icon_pack: emoji
-      - name: Virtual Worlds
-        description: 'Exploring virtual worlds with friends.'
-        percent: 80
-        icon: 👾
-        icon_pack: emoji
+        
+hobbies
+color: '#eeac02'
+color_border: '#f0bf23'
+items:
+  - name: Volleyball
+    description: 'Indoor 🏛️ (*Landesliga*, state division) and beach 🏖️ (unranked) play.'
+    percent: 60
+    icon: 🏐
+    icon_pack: emoji
+  - name: Running
+    description: 'Long distances up to half marathon through nature.'
+    percent: 100
+    icon: 🏃‍♂️
+    icon_pack: emoji
+  - name: Virtual Worlds
+    description: 'Exploring virtual worlds with friends.'
+    percent: 80
+    icon: 👾
+    icon_pack: emoji
 
 languages:
   - name: German (native)
