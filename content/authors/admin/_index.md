@@ -33,35 +33,32 @@ profiles:
   - icon: at-symbol
     url: 'mailto:jannik.stebani@uni-wuerzburg.de'
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/stebix/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Jannik-Stebani
   - icon: academicons/orcid
     url: https://orcid.org/0009-0004-9631-9928
+  - icon: brands/github
+    url: https://github.com/stebix/
 
 interests:
-  - Machine Learning Deep Learning
-  - Imaging Physics and Signal Processing
-  - Programming
+  - Magnetic Resonance and Computed Tomography Imaging 
+  - Signal Processing
+  - \{Machine, Deep\} Learning
+  - Differentiable Programming
 
 education:
 
-  - area: Master of Science Physics
+  - area: Master of Science Physics, 2020
     institution: Julius-Maximilians-Universität Würzburg
-    date_end: 2020
 
-  - area: Bachelor of Science Physics
+  - area: Bachelor of Science Physics, 2017
     institution: Julius-Maximilians-Universität Würzburg
-    date_end: 2017
 
 work:
   - position: Research Fellow
     company_name: Fraunhofer-Institut IIS EZRT
     company_url: 'https://www.iis.fraunhofer.de/de/ff/zfp.html'
-    company_logo: custom/fhg''
+    company_logo: 'custom/fhg'
     date_start: 2021
     
 #    date_end: ''
@@ -127,7 +124,7 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Wilhelm Conrad Röntgen Study Award of the Department of Physics
-    url: https://www.physik.uni-wuerzburg.de/aktuelles/veranstaltungen-aus-der-physik/absolventen-absolventinnenfeier/preistraeger-preistraegerinnen-roentgen-studienpreis/
+    url: 'https://www.physik.uni-wuerzburg.de/aktuelles/veranstaltungen-aus-der-physik/absolventen-absolventinnenfeier/preistraeger-preistraegerinnen-roentgen-studienpreis/'
     date: '2020-11-01'
     awarder: Julius-Maximilians-Universität Würzburg
     icon: "custom/uniwue-seal"
