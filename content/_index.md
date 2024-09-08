@@ -35,7 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a PhD candidate in the Magnetic Resonance Imaging group (Prof. Peter Jakob) in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a PhD candidate in the Magnetic Resonance Imaging group (advised by [Prof. Peter Jakob](https://www.researchgate.net/profile/Peter-Jakob-2) and [Dr. Martin Blaimer](https://www.researchgate.net/profile/Martin-Blaimer)) of [Experimental V](https://www.physik.uni-wuerzburg.de/ep5/) of the [JMU Würzburg](https://www.uni-wuerzburg.de/).
+
+        
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         

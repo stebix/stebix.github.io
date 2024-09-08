@@ -49,6 +49,9 @@ interests:
 
 education:
 
+  - area: PhD Candidate Physics, since 2021
+    institution: Julius-Maximilians-Universität Würzburg
+
   - area: Master of Science Physics, 2020
     institution: Julius-Maximilians-Universität Würzburg
 
@@ -60,8 +63,16 @@ work:
     company_name: Fraunhofer-Institut IIS EZRT
     company_url: 'https://www.iis.fraunhofer.de/de/ff/zfp.html'
     company_logo: 'fhg'
-    date_start: 2021
+    date_start: 2021-01-15
     
+  - position: Researcher
+    company_name: University Hospital Würzburg
+    company_url: 'https://www.ukw.de/hno-klinik/startseite/'
+    company_logo: 'fhg'
+    date_start: 2020-10-15
+    date_end: 2021-01-15
+
+
 #    date_end: ''
 #    summary: |2-
 #      Responsibilities include:
@@ -132,7 +143,7 @@ awards:
     url: 'https://www.physik.uni-wuerzburg.de/aktuelles/veranstaltungen-aus-der-physik/absolventen-absolventinnenfeier/preistraeger-preistraegerinnen-roentgen-studienpreis/'
     date: '2020-11-01'
     awarder: Julius-Maximilians-Universität Würzburg
-    icon: "custom/uniwue-seal.svg"
+    icon: "custom/uniwue-seal"
     summary: |
       Yearly study award of the Faculty of Physics and Astronomy as part of the Master of Science program. The prize is 
       awarded to the yearly top 10 % of graduates with an overall average grade of 1.0 (GPA 4.0/4.0).
@@ -141,14 +152,14 @@ awards:
 
 ## About Me
 
-I am a PhD candidate at the Experimental Physics V of University of Würzburg. For my research, I focus on the
+Hi there 👋! I am a PhD candidate at the Experimental Physics V of University of Würzburg. For my research, I focus on the
 **physics** and **signal processing** of **magnetic resonance (MR)** and **computed tomography (CT)** imaging.
 
-The usage of machine learning and differentiable programming to systematically improve the imaging process of
+The fusion of traditional physics with machine learning and differentiable programming to systematically improve the imaging process of
 both modalities is of special interest.
 
-In addition to optimization of imaging methods, I am interested in applying machine intelligence via deep learning
-onto (imaging) data to enable fully automated and scalable evaluation pipelines.
+As an avid coder and technologist with a strong focus on Python 🐍, I love diving into emerging tools and frameworks
+to solve complex problems, automate workflows, and build scalable applications.
 
 In my free time, when I’m not coding or tinkering with tech, I enjoy sports (volleyball and running), competing in virtual worlds
 and drinking a cup of coffee while contemplating life and things.
