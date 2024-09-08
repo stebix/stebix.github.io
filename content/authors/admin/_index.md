@@ -102,17 +102,20 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Volleyball
-        description: ''
+        description: 'Indoor 🏛️ (*Landesliga*, state division) and beach 🏖️ (unranked) play.'
         percent: 60
-        icon: person-simple-walk
+        icon: 🏐
+        icon_pack: emoji
       - name: Running
-        description: ''
+        description: 'Long distances up to half marathon through nature.'
         percent: 100
-        icon: cat
+        icon: 🏃‍♂️
+        icon_pack: emoji
       - name: Virtual Worlds
-        description: ''
+        description: 'Exploring virtual worlds with friends.'
         percent: 80
-        icon: camera
+        icon: 👾
+        icon_pack: emoji
 
 languages:
   - name: German (native)
