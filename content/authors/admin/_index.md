@@ -37,7 +37,7 @@ profiles:
     url: https://github.com/stebix/
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
+  - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Jannik-Stebani
   - icon: academicons/orcid
     url: https://orcid.org/0009-0004-9631-9928
@@ -61,7 +61,7 @@ work:
   - position: Research Fellow
     company_name: Fraunhofer-Institut IIS EZRT
     company_url: 'https://www.iis.fraunhofer.de/de/ff/zfp.html'
-    company_logo: ''
+    company_logo: custom/fhg''
     date_start: 2021
     
 #    date_end: ''
@@ -103,59 +103,48 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Volleyball
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Running
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Virtual Worlds
         description: ''
         percent: 80
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: German (native)
+  - name: English (fluent)
+  - name: French, Spanish (basic)
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Wilhelm Conrad Röntgen Study Award of the Department of Physics
+    url: https://www.physik.uni-wuerzburg.de/aktuelles/veranstaltungen-aus-der-physik/absolventen-absolventinnenfeier/preistraeger-preistraegerinnen-roentgen-studienpreis/
+    date: '2020-11-01'
+    awarder: Julius-Maximilians-Universität Würzburg
+    icon: "custom/uniwue-seal"
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Yearly study award of the Faculty of Physics and Astronomy for the top 10 % of graduates.
+
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD candidate at the Experimental Physics V of University of Würzburg. For my research, I focus on the
+**physics** and **signal processing** of computed tomography **(CT)** and magnetic resonance **(MR)** imaging.
+
+The usage of machine learning and differentiable programming to systematically improve the imaging process of
+both modalities is of special interest.
+
+In addition to optimization of imaging methods, I am interested in applying machine intelligence via deep learning
+onto (imaging) data to enable fully automated and scalable evaluation pipelines.
+
+In my free time, I enjoy playing volleyball, running and competing in virtual worlds.
