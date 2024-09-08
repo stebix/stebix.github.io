@@ -130,7 +130,8 @@ awards:
     awarder: Julius-Maximilians-Universität Würzburg
     icon: "custom/uniwue-seal.svg"
     summary: |
-      Yearly study award of the Faculty of Physics and Astronomy for the top 10 % of graduates.
+      Yearly study award of the Faculty of Physics and Astronomy as part of the Master of Science program. The prize is 
+      awarded to the yearly top 10 % of graduates with an overall average grade of 1.0 (GPA 4.0/4.0).
 
 ---
 
@@ -146,3 +147,5 @@ In addition to optimization of imaging methods, I am interested in applying mach
 onto (imaging) data to enable fully automated and scalable evaluation pipelines.
 
 In my free time, I enjoy playing volleyball, running and competing in virtual worlds.
+
+👨‍💻🏐🏃‍♂️👾
