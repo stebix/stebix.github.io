@@ -109,7 +109,7 @@ skills:
         percent: 40
         icon: circle-stack
         
-  - name: hobbies:
+  - name: hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
