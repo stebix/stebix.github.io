@@ -40,7 +40,7 @@ sections:
 
         $a + b = c$
 
-        **I am grooot** [I'm an external link](https://www.google.com)
+        **I am grooot** [I'm an external link](https://www.google.com) <a href="https://www.google.com">I'm an external link</a>
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
