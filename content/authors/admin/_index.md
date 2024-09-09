@@ -109,25 +109,25 @@ skills:
         percent: 40
         icon: circle-stack
         
-hobbies:
-  color: '#eeac02'
-  color_border: '#f0bf23'
-  items:
-    - name: Volleyball
-      description: 'Indoor 🏛️ (*Landesliga*, state division) and beach 🏖️ (unranked) play.'
-      percent: 60
-      icon: 🏐
-      icon_pack: emoji
-    - name: Running
-      description: 'Long distances up to half marathon through nature.'
-      percent: 100
-      icon: 🏃‍♂️
-      icon_pack: emoji
-    - name: Virtual Worlds
-      description: 'Exploring virtual worlds with friends.'
-      percent: 80
-      icon: 👾
-      icon_pack: emoji
+  - name: hobbies:
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Volleyball
+        description: 'Indoor 🏛️ (*Landesliga*, state division) and beach 🏖️ (unranked) play.'
+        percent: 60
+        icon: '🏐'
+        icon_pack: emoji
+      - name: Running
+        description: 'Long distances up to half marathon through nature.'
+        percent: 100
+        icon: '🏃‍♂️'
+        icon_pack: emoji
+      - name: Virtual Worlds
+        description: 'Exploring virtual worlds with friends. Competing in multiplayer modes.'
+        percent: 80
+        icon: '👾'
+        icon_pack: emoji
 
 languages:
   - name: German (native)
