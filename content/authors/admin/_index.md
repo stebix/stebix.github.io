@@ -143,7 +143,7 @@ awards:
     url: 'https://www.physik.uni-wuerzburg.de/aktuelles/veranstaltungen-aus-der-physik/absolventen-absolventinnenfeier/preistraeger-preistraegerinnen-roentgen-studienpreis/'
     date: '2020-11-01'
     awarder: Julius-Maximilians-Universität Würzburg
-    icon: "custom/uniwue-seal"
+    icon: "brands/uniwue-seal"
     summary: |
       Yearly study award of the Faculty of Physics and Astronomy as part of the Master of Science program. The prize is 
       awarded to the yearly top 10 % of graduates with an overall average grade of 1.0 (GPA 4.0/4.0).
