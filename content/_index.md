@@ -38,7 +38,9 @@ sections:
       text: |-
         I am a PhD candidate in the Magnetic Resonance Imaging group (advised by [Prof. Peter Jakob](https://www.researchgate.net/profile/Peter-Jakob-2) and [Dr. Martin Blaimer](https://www.researchgate.net/profile/Martin-Blaimer)) of [Experimental Physics V](https://www.physik.uni-wuerzburg.de/ep5/) of the [JMU Würzburg](https://www.uni-wuerzburg.de/).
 
-        
+        $a + b = c$
+
+        **I am grooot**
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
@@ -111,7 +113,7 @@ sections:
         padding: [0, 0, 0, 0]
 
   - block: cta-card
-    demo: false # Only display this section in the Hugo Blox Builder demo site
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-
@@ -120,7 +122,7 @@ sections:
         <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
         Easily build anything with blocks - no-code required!
-        
+        [LINK](https://stebix.github.io/)
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
         text: Get Started
