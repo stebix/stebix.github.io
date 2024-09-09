@@ -162,6 +162,6 @@ As an avid coder and technologist with a strong focus on Python 🐍, I love div
 to solve complex problems, automate workflows, and build scalable applications.
 
 In my free time, when I’m not coding or tinkering with tech, I enjoy sports (volleyball and running), competing in virtual worlds
-and drinking a cup of coffee while contemplating life and things. [LINK](https://gohugo.io/content-management/organization/)
+and drinking a cup of coffee while contemplating life and things.
 
 👨‍💻🏐🏃‍♂️👾

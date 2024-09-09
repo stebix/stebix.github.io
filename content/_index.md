@@ -30,6 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
+
   - block: markdown
     content:
       title: '📚 My Research 🔬'
@@ -44,6 +45,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:
@@ -55,16 +57,18 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
     content:
       title: Recent Publications
-      text: ""
+      text: asd [asdf](https://www.researchgate.net/profile/Peter-Jakob-2)
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
       view: citation
+
   - block: collection
     id: talks
     content:
@@ -75,6 +79,7 @@ sections:
     design:
       view: article-grid
       columns: 1
+
   - block: collection
     id: news
     content:
@@ -104,8 +109,9 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-
