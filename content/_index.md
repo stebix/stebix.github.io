@@ -32,10 +32,10 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My Research 🔬'
       subtitle: ''
       text: |-
-        I am a PhD candidate in the Magnetic Resonance Imaging group (advised by [Prof. Peter Jakob](https://www.researchgate.net/profile/Peter-Jakob-2) and [Dr. Martin Blaimer](https://www.researchgate.net/profile/Martin-Blaimer)) of [Experimental V](https://www.physik.uni-wuerzburg.de/ep5/) of the [JMU Würzburg](https://www.uni-wuerzburg.de/).
+        I am a PhD candidate in the Magnetic Resonance Imaging group (advised by [Prof. Peter Jakob](https://www.researchgate.net/profile/Peter-Jakob-2) and [Dr. Martin Blaimer](https://www.researchgate.net/profile/Martin-Blaimer)) of [Experimental Physics V](https://www.physik.uni-wuerzburg.de/ep5/) of the [JMU Würzburg](https://www.uni-wuerzburg.de/).
 
         
 
