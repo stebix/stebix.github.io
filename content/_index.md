@@ -15,16 +15,16 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
     design:
       css_class: dark
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: endless-constellation.svg #stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
@@ -36,34 +36,45 @@ sections:
       title: '🔬📚 My Research'
       subtitle: ''
       text: |-
-        I am a PhD candidate in the Magnetic Resonance Imaging group (advised by [Prof. Peter Jakob](https://www.researchgate.net/profile/Peter-Jakob-2) and [Dr. Martin Blaimer](https://www.researchgate.net/profile/Martin-Blaimer)) of [Experimental Physics V](https://www.physik.uni-wuerzburg.de/ep5/) of the [JMU Würzburg](https://www.uni-wuerzburg.de/).
+        I am a PhD candidate in the Magnetic Resonance Imaging group (advised by 
+        <a href="https://www.researchgate.net/profile/Peter-Jakob-2">Prof. Peter Jakob</a> and
+        <a href="https://www.researchgate.net/profile/Martin-Blaimer">Dr. Martin Blaimer</a>
+        at <a href="https://www.physik.uni-wuerzburg.de/ep5/">Experimental Physics V</a>.
 
-        $a + b = c$
+        In my research I focus on the entire stack of imaging and vision problems.
+        For the imaging methods I concern myself with magnetic resonance imaging (excite the spins in the object of interest and listen to the frequencies of the subsequent singing) and
+        computed tomography (shoot the object with photons and measure what comes out the other end).
+        For these two, it is often beneficial to optimize the imaging process and scanner device parameters
+        with respect to certain target parameters.
+        A certain target could e.g. maximal image sharpness for a certain budget of measurement time
+        (typical for MRI) or a certain budget of radiation dose (typical for CT). 
+        For this programmatic optimization, we often use differentiable programming, sometimes also called backpropagation or autodiff, to simulate the forward imaging process and
+        getting gradients nearly free 🎉
+        Also, learning the characteristics of the scanner into a digital twin model via machine
+        learning is of interest. 
 
-        **I am grooot** [I'm an external link](https://www.google.com) <a href="https://www.google.com">I'm an external link</a>
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Another center of attention of my work is quantitative MRI. The default imaging process in MRI 
+        is "qualitative". This means that the grey values of the image the typical radiologist or medical
+        practitioner is looking at is incommensurable.
+        Images created with other scanners, other scanner settings
         
+        On top of simulating and improving the basal imaging process of MRI and CT,
+        the subsequent processing and analysis of the - oftentimes threedimensional -
+        image data is of interest.
+
+        For this, methods of computer vision and deep learning is of special interest.
+
         Please reach out to collaborate 😃
     design:
       columns: '1'
+      background:
+        color: '#e8ecff'
 
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
 
   - block: collection
     content:
-      title: Recent Publications
-      text: asd [asdf](https://www.researchgate.net/profile/Peter-Jakob-2)
+      title: Selected Publications
+      text: ''
       filters:
         folders:
           - publication
@@ -71,46 +82,7 @@ sections:
     design:
       view: citation
 
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
 
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
 
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site

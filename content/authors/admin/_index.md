@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jannik Stebani
+title: "Jannik Stebani"
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -44,6 +44,7 @@ interests:
   - Magnetic Resonance Imaging
   - Computed Tomography Imaging 
   - \{Machine, Deep\} Learning
+  - Computer Vision
   - Differentiable Programming
   - Signal Processing
 
@@ -51,24 +52,34 @@ education:
 
   - area: PhD Candidate Physics, since 2021
     institution: Julius-Maximilians-Universität Würzburg
+    #date_start: 2021-06-01
 
-  - area: Master of Science Physics, 2020
+  - area: Master of Science Physics
     institution: Julius-Maximilians-Universität Würzburg
+    #date_end: 2020-11-11
 
-  - area: Bachelor of Science Physics, 2017
+  - area: Bachelor of Science Physics
     institution: Julius-Maximilians-Universität Würzburg
+    #date_end: 2017-10-15
 
 work:
   - position: Research Fellow
     company_name: Fraunhofer-Institut IIS EZRT
     company_url: 'https://www.iis.fraunhofer.de/de/ff/zfp.html'
-    company_logo: 'fhg'
+    company_logo: 'brands/fhg'
     date_start: 2021-01-15
+  
+  - position: Research Assistant
+    company_name: Lehrstuhl für Röntgenmikroskopie
+    company_url: 'https://www.physik.uni-wuerzburg.de/lrm/'
+    company_logo: 'custom/hospital'
+    date_start: 2023-01-15
+    date_end: 2024-09-30
     
-  - position: Researcher
+  - position: Research Assistant
     company_name: University Hospital Würzburg
     company_url: 'https://www.ukw.de/hno-klinik/startseite/'
-    company_logo: 'fhg'
+    company_logo: 'custom/hospital'
     date_start: 2020-10-15
     date_end: 2021-01-15
 
@@ -96,38 +107,34 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
-        percent: 80
+      - name: Programming
+        description: 'Python, julia, MATLAB, CUDA, javascript, Rust'
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
+      - name: Tooling
+        description: 'Git, LaTeX, Bash, tmux'
+        icon: 'custom/tools'
+      - name: Infrastructure
+        description: 'Linux, Docker, Proxmox, Kubernetes'
         icon: circle-stack
         
-  - name: hobbies
+  - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Volleyball
-        description: 'Indoor 🏛️ (*Landesliga*, state division) and beach 🏖️ (unranked) play.'
+        description: 'Indoor 🏛️ and beach 🏖️ play.'
         percent: 60
-        icon: '🏐'
-        icon_pack: emoji
+        icon: 'custom/volleyball'
+        
       - name: Running
-        description: 'Long distances up to half marathon through nature.'
+        description: 'Long distances through nature.'
         percent: 100
-        icon: '🏃‍♂️'
-        icon_pack: emoji
+        icon: 'custom/runner'
+
       - name: Virtual Worlds
-        description: 'Exploring virtual worlds with friends. Competing in multiplayer modes.'
+        description: 'Exploring and competing in virtual worlds with friends.'
         percent: 80
-        icon: '👾'
-        icon_pack: emoji
+        icon: 'custom/gamepad'
 
 languages:
   - name: German (native)
@@ -143,7 +150,7 @@ awards:
     url: 'https://www.physik.uni-wuerzburg.de/aktuelles/veranstaltungen-aus-der-physik/absolventen-absolventinnenfeier/preistraeger-preistraegerinnen-roentgen-studienpreis/'
     date: '2020-11-01'
     awarder: Julius-Maximilians-Universität Würzburg
-    icon: "brands/uniwue-seal"
+    icon: 'award'
     summary: |
       Yearly study award of the Faculty of Physics and Astronomy as part of the Master of Science program. The prize is 
       awarded to the yearly top 10 % of graduates with an overall average grade of 1.0 (GPA 4.0/4.0).

@@ -1,0 +1,49 @@
+---
+title: Iterative training of robust k-space interpolation networks for improved image
+  reconstruction with limited scan specific training samples
+authors:
+- Peter Dawood
+- Felix Breuer
+- Jannik Stebani
+- Paul Burd
+- István Homolya
+- Johannes Oberberger
+- Peter M. Jakob
+- Martin Blaimer
+date: '2023-01-01'
+publishDate: '2024-09-16T02:25:16.796095Z'
+publication_types:
+- article-journal
+publication: '*Magnetic Resonance in Medicine*'
+doi: 10.1002/mrm.29482
+abstract: Purpose To evaluate an iterative learning approach for enhanced performance
+  of robust artificial-neural-networks for k-space interpolation (RAKI), when only
+  a limited amount of training data (auto-calibration signals [ACS]) are available
+  for accelerated standard 2D imaging. Methods In a first step, the RAKI model was
+  tailored for the case of limited training data amount. In the iterative learning
+  approach (termed iterative RAKI [iRAKI]), the tailored RAKI model is initially trained
+  using original and augmented ACS obtained from a linear parallel imaging reconstruction.
+  Subsequently, the RAKI convolution filters are refined iteratively using original
+  and augmented ACS extracted from the previous RAKI reconstruction. Evaluation was
+  carried out on 200 retrospectively undersampled in vivo datasets from the fastMRI
+  neuro database with different contrast settings. Results For limited training data
+  (18 and 22 ACS lines for R = 4 and R = 5, respectively), iRAKI outperforms standard
+  RAKI by reducing residual artifacts and yields better noise suppression when compared
+  to standard parallel imaging, underlined by quantitative reconstruction quality
+  metrics. Additionally, iRAKI shows better performance than both GRAPPA and standard
+  RAKI in case of pre-scan calibration with varying contrast between training- and
+  undersampled data. Conclusion RAKI benefits from the iterative learning approach,
+  which preserves the noise suppression feature, but requires less original training
+  data for the accurate reconstruction of standard 2D images thereby improving net
+  acceleration.
+tags:
+- deep learning
+- parallel imaging
+- complex-valued machine learning
+- data augmentation
+- GRAPPA
+- RAKI
+links:
+- name: URL
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29482
+---
